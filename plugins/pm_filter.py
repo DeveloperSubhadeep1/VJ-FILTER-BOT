@@ -2056,6 +2056,7 @@ async def auto_filter(client, msg, spoll=False):
     if imdb:
         cap = TEMPLATE.format(
             qurey=search,
+            remaining_seconds=remaining_seconds
             title=imdb['title'],
             votes=imdb['votes'],
             aka=imdb["aka"],
