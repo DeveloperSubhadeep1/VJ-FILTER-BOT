@@ -212,9 +212,7 @@ Here is the result for your {query}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
 🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
 
-⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
-
-📚 𝙍𝙀𝙌𝙐𝙀𝙎𝙏𝙀𝘿 𝙁𝙄𝙇𝙀𝙎 👇🏼</b>"""
+⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥</b>"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
