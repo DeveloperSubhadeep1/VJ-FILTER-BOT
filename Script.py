@@ -210,13 +210,14 @@ Here is the result for your {query}
 <b>🏷 Title</b>: <a href={url}>{title}</a>
 🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
+🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
+☀️ Languages : <code>{languages}</code>
+👥 Cast : <code>{cast}</code>
 📀 RunTime: {runtime} Minutes
 📆 Release Info : {release_date}
-🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
+🎛 Countries : <code>{countries}</code>
 
-⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
-
-📚 𝙍𝙀𝙌𝙐𝙀𝙎𝙏𝙀𝘿 𝙁𝙄𝙇𝙀𝙎 👇🏼</b>"""
+Powered By {message.chat.title}</b>"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
