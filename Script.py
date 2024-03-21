@@ -203,16 +203,16 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 <b> Size ⚙️: {file_size}</b>""" 
 
     IMDB_TEMPLATE_TXT = """
-<b>Hey {message.from_user.mention},
+<b>Query: {qurey}
 
-Here is the result for your {query}
+IMDb Data:
 
 <b>🏷 Title</b>: <a href={url}>{title}</a>
 🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
 🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
-
-⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥</b>"""
+☀️ Languages : <code>{languages}</code>
+</b>"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
